@@ -1,11 +1,11 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
-:root {
+@theme {
     --color-background: #19191D;
     --color-background-secondary: #1E1E21;
-    --color-red: #F32F2F;
-    --color-blue: #1B688D;
+    --color-redPrimary: #F32F2F;
+    --color-bluePrimary: #1B688D;
     --color-regular-text: #ABB2BF;
     --color-stroke: #424242;
     --color-footer: #141417;
@@ -16,5 +16,6 @@
     body {
         background-color: var(--color-background);
         font-family: var(--font-fira-code);
+        color: var(--color-regular-text);
     }
 }

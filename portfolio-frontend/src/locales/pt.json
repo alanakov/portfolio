@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "home": "home",
+    "about": "sobre-mim",
+    "projects": "projetos",
+    "contact": "contatos"
+  },
+  "common": {
+    "language": "Idioma"
+  }
+}
