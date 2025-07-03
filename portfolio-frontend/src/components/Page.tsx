@@ -1,6 +1,7 @@
 import Footer from "./layout/Footer";
 import Navbar from "./layout/Navbar";
 import AboutMe from "./sections/AboutMe";
+import Experiences from "./sections/Experiences";
 import Home from "./sections/Home";
 
 export default function Page() {
@@ -13,7 +14,12 @@ export default function Page() {
         </div>
         <div className="mx-2 md:mx-8 lg:mx-20">
           <div className="mt-20 md:mt-32 lg:mt-60">
-            <AboutMe />
+            <div className="mb-20">
+              <AboutMe />
+            </div>
+            <div className="mb-20">
+              <Experiences />
+            </div>
           </div>
         </div>
       </main>

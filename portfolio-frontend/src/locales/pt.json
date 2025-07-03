@@ -19,5 +19,28 @@
     "p1": "Oi! Me chamo Alana, tenho 19 anos e atualmente estou no 4º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Me encontrei no desenvolvimento frontend, onde posso unir lógica, criatividade e um toque de design, e foi nesse equilíbrio que descobri minha paixão por programar.",
     "p2": "Atualmente, trabalho com React e TypeScript, e venho me aprofundando no backend para ampliar minha visão como dev.",
     "p3": "Fora do código, sou apaixonada por café, música e pela companhia dos meus gatos. Adoro aprender, evoluir e participar de projetos que conectem pessoas e tragam propósito. Bora trocar uma ideia? :)"
-  }
+  },
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Estagiária",
+      "period": "09/2024 - 01/2025",
+      "description": "Durante meu estágio de 3 meses na VipTech, participei de projetos internos colaborando com a equipe de desenvolvimento na criação e manutenção de aplicações web. Atuei em tarefas como correção de bugs, versionamento com Git e implementação de pequenas funcionalidades, sempre com foco em boas práticas e aprendizado contínuo. A experiência me proporcionou contato direto com fluxos de trabalho ágeis e o dia a dia de uma equipe técnica em uma casa de software.",
+      "location": "VipTech, Campo Mourão - PR"
+    },
+    {
+      "id": "2",
+      "title": "Professora voluntária",
+      "period": "08/2024 - Presente",
+      "description": "Atuo como professora voluntária de informática para crianças de 10 a 15 anos, promovendo o primeiro contato com o uso consciente da tecnologia. Desenvolvi aulas introdutórias sobre o funcionamento do computador, navegação segura na internet, ferramentas básicas como o pacote Office e noções iniciais de lógica de programação. O projeto busca tornar o aprendizado acessível e inspirador, incentivando o protagonismo e a confiança dos alunos no ambiente digital.",
+      "location": "Campus Universitário Integrado, Campo Mourão - PR"
+    },
+    {
+      "id": "3",
+      "title": "Aceleração de Carreiras",
+      "period": "2024 - Presente",
+      "description": "Faço parte do programa Aceleração de Carreiras, voltado ao desenvolvimento técnico e profissional na área de tecnologia. No primeiro ano, atuei no desenvolvimento do site institucional da Codecam, colaborando com o time em tarefas de front-end e contribuindo com soluções. Atualmente, no segundo ano, sigo aprimorando minhas habilidades técnicas e participando de novos desafios e mentorias com foco em crescimento contínuo e preparação para o mercado.",
+      "location": "Faculdade Integrado, Campo Mourão - PR"
+    }
+  ]
 }

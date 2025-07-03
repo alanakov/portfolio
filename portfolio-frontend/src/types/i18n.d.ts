@@ -26,6 +26,13 @@ declare module "i18next" {
           p2: string;
           p3: string;
         };
+        experiences: Array<{
+          id: string;
+          title: string;
+          period: string;
+          description: string;
+          location: string;
+        }>;
       };
     };
   }

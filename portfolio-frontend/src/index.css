@@ -3,10 +3,10 @@
 
 @theme {
     --color-background: #19191D;
-    --color-background-secondary: #1E1E21;
+    --color-backgroundSecondary: #1E1E21;
     --color-redPrimary: #F32F2F;
     --color-bluePrimary: #1B688D;
-    --color-regular-text: #ABB2BF;
+    --color-regularText: #ABB2BF;
     --color-stroke: #424242;
     --color-footer: #141417;
     --font-fira-code: 'Fira Code', monospace;
@@ -20,7 +20,7 @@
     body {
         background-color: var(--color-background);
         font-family: var(--font-fira-code);
-        color: var(--color-regular-text);
+        color: var(--color-regularText);
     }
 }
 
