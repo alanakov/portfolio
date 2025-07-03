@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "home": "home",
+    "about": "about-me",
+    "projects": "projects",
+    "contact": "contact"
+  },
+  "common": {
+    "language": "Language"
+  }
+}
