@@ -13,5 +13,34 @@
     "name": "Alana Kovalski",
     "title": "Front-End Developer",
     "contact": "Contact me →"
-  }
+  },
+  "aboutMe": {
+    "title": "about-me",
+    "p1": "Hi! My name is Alana, I'm 19 years old and currently in the 4th semester of the Systems Analysis and Development program. I found myself in frontend development, where I can combine logic, creativity, and a touch of design. It was in this balance that I discovered my passion for programming.",
+    "p2": "Currently, I work with React and TypeScript, and I have been diving into backend to broaden my perspective as a developer.",
+    "p3": "Outside of code, I'm passionate about coffee, music, and the company of my cats. I love learning, growing, and participating in projects that connect people and bring purpose. Let's chat? :)"
+  },
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Intern",
+      "period": "09/2024 - 01/2025",
+      "description": "During my 3-month internship at VipTech, I participated in internal projects collaborating with the development team in creating and maintaining web applications. I worked on tasks such as bug fixing, versioning with Git, and implementing small features, always focusing on best practices and continuous learning. The experience gave me direct contact with agile workflows and the daily life of a technical team in a software house.",
+      "location": "VipTech, Campo Mourão - PR"
+    },
+    {
+      "id": "2",
+      "title": "Volunteer Teacher",
+      "period": "08/2024 - Present",
+      "description": "I work as a volunteer computer teacher for children aged 10 to 15, promoting their first contact with conscious technology use. I developed introductory lessons on how computers work, safe internet browsing, basic tools like the Office suite, and initial programming logic concepts. The project aims to make learning accessible and inspiring, encouraging students' protagonism and confidence in the digital environment.",
+      "location": "Campus Universitário Integrado, Campo Mourão - PR"
+    },
+    {
+      "id": "3",
+      "title": "Career Acceleration",
+      "period": "2024 - Present",
+      "description": "I am part of the Career Acceleration program, focused on technical and professional development in the technology field. In the first year, I worked on the development of Codecam's institutional website, collaborating with the team on front-end tasks and contributing solutions. Currently, in the second year, I continue to improve my technical skills and participate in new challenges and mentoring sessions focused on continuous growth and preparation for the job market.",
+      "location": "Faculdade Integrado, Campo Mourão - PR"
+    }
+  ]
 }

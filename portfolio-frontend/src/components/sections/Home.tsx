@@ -1,5 +1,5 @@
-import Button from "../ui/button";
 import { useTranslation } from "react-i18next";
+import Button from "../ui/Button";
 
 export default function Home() {
   const { t } = useTranslation();
