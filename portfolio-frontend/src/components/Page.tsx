@@ -11,8 +11,8 @@ export default function Page() {
         <div>
           <Home />
         </div>
-        <div className="mx-20">
-          <div className="mt-60">
+        <div className="mx-2 md:mx-8 lg:mx-20">
+          <div className="mt-20 md:mt-32 lg:mt-60">
             <AboutMe />
           </div>
         </div>
