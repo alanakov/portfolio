@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-0 mt-[-40px]">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 lg:gap-16">
       <div className="w-full md:w-auto text-center md:text-left">
         <p>{t("home.greeting")}</p>
         <h2 className="font-semibold text-3xl md:text-4xl">{t("home.name")}</h2>
@@ -16,11 +16,11 @@ export default function Home() {
         <Button className="mt-6">{t("home.contact")}</Button>
       </div>
       <div className=" flex justify-center md:block">
-        <div className="w-60 h-60 md:w-96 md:h-96 rounded-full overflow-hidden flex items-center justify-center bg-background-secondary">
+        <div className="w-60 md:w-96 aspect-square rounded-full overflow-hidden flex items-center justify-center bg-background-secondary">
           <img
             src="./assets/images/alana-home.png"
             alt="Alana Kovalski"
-            className="w-full h-full object-cover rounded-full"
+            className="object-cover rounded-full"
           />
         </div>
       </div>
