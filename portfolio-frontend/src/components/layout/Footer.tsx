@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <footer className="border-t border-stroke">
       <div className="container mx-auto px-4 py-8 flex items-center gap-4 justify-between">
-        <p className="text-center text-sm text-gray-400">
+        <label className="text-center text-sm text-gray-400">
           &copy; {new Date().getFullYear()} Alana.
-        </p>
+        </label>
         <div className="flex items-center justify-center gap-4">
           <a
             href="https://github.com/alana-dev"
