@@ -9,7 +9,9 @@ export default function Home() {
         <p>{t("home.greeting")}</p>
         <h2 className="font-semibold text-3xl md:text-4xl">{t("home.name")}</h2>
         <h1 className="font-bold text-4xl md:text-5xl text-redPrimary">
-          {t("home.title")}
+          {t("home.title").split(" ").slice(0, -1).join(" ")}
+          <br />
+          {t("home.title").split(" ").slice(-1)}
         </h1>
         <Button className="mt-6">{t("home.contact")}</Button>
       </div>
