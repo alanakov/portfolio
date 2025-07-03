@@ -13,5 +13,11 @@
     "name": "Alana Kovalski",
     "title": "Front-End Developer",
     "contact": "Contact me →"
+  },
+  "aboutMe": {
+    "title": "about-me",
+    "p1": "Hi! My name is Alana, I'm 19 years old and currently in the 4th semester of the Systems Analysis and Development program. I found myself in frontend development, where I can combine logic, creativity, and a touch of design. It was in this balance that I discovered my passion for programming.",
+    "p2": "Currently, I work with React and TypeScript, and I have been diving into backend to broaden my perspective as a developer.",
+    "p3": "Outside of code, I'm passionate about coffee, music, and the company of my cats. I love learning, growing, and participating in projects that connect people and bring purpose. Let's chat? :)"
   }
 }

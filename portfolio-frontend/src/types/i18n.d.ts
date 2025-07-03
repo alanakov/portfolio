@@ -20,6 +20,12 @@ declare module "i18next" {
           title: string;
           contact: string;
         };
+        aboutMe: {
+          title: string;
+          p1: string;
+          p2: string;
+          p3: string;
+        };
       };
     };
   }

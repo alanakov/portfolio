@@ -13,5 +13,11 @@
     "name": "Alana Kovalski",
     "title": "Desenvolvedora Front-End",
     "contact": "Entre em contato →"
+  },
+  "aboutMe": {
+    "title": "sobre-mim",
+    "p1": "Oi! Me chamo Alana, tenho 19 anos e atualmente estou no 4º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Me encontrei no desenvolvimento frontend, onde posso unir lógica, criatividade e um toque de design, e foi nesse equilíbrio que descobri minha paixão por programar.",
+    "p2": "Atualmente, trabalho com React e TypeScript, e venho me aprofundando no backend para ampliar minha visão como dev.",
+    "p3": "Fora do código, sou apaixonada por café, música e pela companhia dos meus gatos. Adoro aprender, evoluir e participar de projetos que conectem pessoas e tragam propósito. Bora trocar uma ideia? :)"
   }
 }
