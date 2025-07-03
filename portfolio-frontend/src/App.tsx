@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-1 pt-24 m-60">
+      <main className="flex-1 pt-24 mx-60 my-40">
         <Home />
       </main>
       <Footer />
