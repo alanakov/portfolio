@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center p-6 mx-40">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-6 mx-40">
       <div className="flex items-center">
         <label className="text-2xl font-bold">Alana</label>
       </div>
