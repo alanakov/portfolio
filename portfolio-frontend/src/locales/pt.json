@@ -7,5 +7,11 @@
   },
   "common": {
     "language": "Idioma"
+  },
+  "home": {
+    "greeting": "Olá, eu sou",
+    "name": "Alana Kovalski",
+    "title": "Desenvolvedora Front-End",
+    "contact": "Entre em contato →"
   }
 }
