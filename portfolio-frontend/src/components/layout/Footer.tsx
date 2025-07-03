@@ -9,21 +9,21 @@ export default function Footer() {
         </label>
         <div className="flex items-center justify-center gap-4">
           <a
-            href="https://github.com/alana-dev"
+            href="https://github.com/alanakov"
             target="_blank"
             className="text-gray-400 hover:text-white transition-colors duration-200"
           >
             <Github size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/alana-dev/"
+            href="https://www.linkedin.com/in/alanakovalski/"
             target="_blank"
             className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5544998954520"
             target="_blank"
             className="text-gray-400 hover:text-green-400 transition-colors duration-200"
           >
