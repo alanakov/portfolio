@@ -1,11 +1,14 @@
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
+import Home from "./components/sections/Home";
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-1 pt-24"></main>
+      <main className="flex-1 pt-24 px-4 md:px-10 lg:px-20 xl:px-60 py-10 md:py-20 lg:py-40">
+        <Home />
+      </main>
       <Footer />
     </div>
   );

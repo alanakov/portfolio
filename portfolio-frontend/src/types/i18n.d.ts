@@ -14,6 +14,12 @@ declare module "i18next" {
         common: {
           language: string;
         };
+        home: {
+          greeting: string;
+          name: string;
+          title: string;
+          contact: string;
+        };
       };
     };
   }
