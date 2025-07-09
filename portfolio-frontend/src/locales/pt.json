@@ -76,5 +76,29 @@
       "image": "./assets/images/projects/misticazoo.png",
       "liveUrl": "https://codecam.org.br"
     }
-  ]
+  ],
+  "contact": {
+    "title": "contato",
+    "description": "Estou em busca de oportunidades na área de desenvolvimento. Mas, se tiver outra proposta ou dúvida, fique à vontade para entrar em contato comigo!",
+    "form": {
+      "name": "Nome completo",
+      "namePlaceholder": "Digite seu nome completo",
+      "email": "E-mail",
+      "emailPlaceholder": "Digite seu e-mail",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Digite o assunto",
+      "submit": "Enviar",
+      "sending": "Enviando..."
+    },
+    "validation": {
+      "nameRequired": "Nome é obrigatório",
+      "emailRequired": "E-mail é obrigatório",
+      "emailInvalid": "E-mail inválido",
+      "subjectRequired": "Assunto é obrigatório"
+    },
+    "messages": {
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    }
+  }
 }

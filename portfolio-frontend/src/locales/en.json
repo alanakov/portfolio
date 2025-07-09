@@ -76,5 +76,29 @@
       "image": "./assets/images/projects/misticazoo.png",
       "liveUrl": "https://codecam.org.br"
     }
-  ]
+  ],
+  "contact": {
+    "title": "contact",
+    "description": "I'm looking for opportunities in the development field. But if you have another proposal or question, feel free to get in touch with me!",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Enter your full name",
+      "email": "E-mail",
+      "emailPlaceholder": "Enter your e-mail",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter the subject",
+      "submit": "Send",
+      "sending": "Sending..."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "E-mail is required",
+      "emailInvalid": "Invalid e-mail",
+      "subjectRequired": "Subject is required"
+    },
+    "messages": {
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    }
+  }
 }

@@ -3,6 +3,18 @@ import { SelectContent, SelectItem, SelectTrigger } from "../ui/select";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
+const scrollToSection = (sectionId: string) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    const navbarHeight = 80;
+    const elementPosition = element.offsetTop - navbarHeight;
+    window.scrollTo({
+      top: elementPosition,
+      behavior: "smooth",
+    });
+  }
+};
+
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(
@@ -22,22 +34,34 @@ export default function Navbar() {
       </div>
       {/* Desktop links */}
       <div className="hidden lg:flex items-center gap-8">
-        <a href="#home" className="flex hover:text-white transition-colors">
+        <button
+          onClick={() => scrollToSection("home")}
+          className="flex hover:text-white transition-colors bg-transparent border-none cursor-pointer"
+        >
           <p className="text-redPrimary">#</p>
           {t("navbar.home")}
-        </a>
-        <a href="#about-me" className="flex hover:text-white transition-colors">
+        </button>
+        <button
+          onClick={() => scrollToSection("about-me")}
+          className="flex hover:text-white transition-colors bg-transparent border-none cursor-pointer"
+        >
           <p className="text-redPrimary">#</p>
           {t("navbar.about")}
-        </a>
-        <a href="#projects" className="flex hover:text-white transition-colors">
+        </button>
+        <button
+          onClick={() => scrollToSection("projects")}
+          className="flex hover:text-white transition-colors bg-transparent border-none cursor-pointer"
+        >
           <p className="text-redPrimary">#</p>
           {t("navbar.projects")}
-        </a>
-        <a href="#contact" className="flex hover:text-white transition-colors">
+        </button>
+        <button
+          onClick={() => scrollToSection("contact")}
+          className="flex hover:text-white transition-colors bg-transparent border-none cursor-pointer"
+        >
           <p className="text-redPrimary">#</p>
           {t("navbar.contact")}
-        </a>
+        </button>
         <div className="flex items-center gap-8">
           <Select value={selectedLanguage} onValueChange={handleLanguageChange}>
             <SelectTrigger className="border-none cursor-pointer font-semibold ">
@@ -120,38 +144,46 @@ export default function Navbar() {
             >
               &times;
             </button>
-            <a
-              href="#home"
-              className="text-xl font-semibold hover:text-white transition-colors"
-              onClick={() => setMenuOpen(false)}
+            <button
+              onClick={() => {
+                scrollToSection("home");
+                setMenuOpen(false);
+              }}
+              className="text-xl font-semibold hover:text-white transition-colors bg-transparent border-none cursor-pointer text-left"
             >
               <span className="text-redPrimary">#</span>
               {t("navbar.home")}
-            </a>
-            <a
-              href="#about-me"
-              className="text-xl font-semibold hover:text-white transition-colors"
-              onClick={() => setMenuOpen(false)}
+            </button>
+            <button
+              onClick={() => {
+                scrollToSection("about-me");
+                setMenuOpen(false);
+              }}
+              className="text-xl font-semibold hover:text-white transition-colors bg-transparent border-none cursor-pointer text-left"
             >
               <span className="text-redPrimary">#</span>
               {t("navbar.about")}
-            </a>
-            <a
-              href="#projects"
-              className="text-xl font-semibold hover:text-white transition-colors"
-              onClick={() => setMenuOpen(false)}
+            </button>
+            <button
+              onClick={() => {
+                scrollToSection("projects");
+                setMenuOpen(false);
+              }}
+              className="text-xl font-semibold hover:text-white transition-colors bg-transparent border-none cursor-pointer text-left"
             >
               <span className="text-redPrimary">#</span>
               {t("navbar.projects")}
-            </a>
-            <a
-              href="#contact"
-              className="text-xl font-semibold hover:text-white transition-colors"
-              onClick={() => setMenuOpen(false)}
+            </button>
+            <button
+              onClick={() => {
+                scrollToSection("contact");
+                setMenuOpen(false);
+              }}
+              className="text-xl font-semibold hover:text-white transition-colors bg-transparent border-none cursor-pointer text-left"
             >
               <span className="text-redPrimary">#</span>
               {t("navbar.contact")}
-            </a>
+            </button>
             <div className="flex items-center gap-4 mt-4">
               <Select
                 value={selectedLanguage}
