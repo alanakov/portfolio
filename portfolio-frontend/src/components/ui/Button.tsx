@@ -9,31 +9,32 @@ export default function Button({
   className = "",
   ...props
 }: ButtonProps) {
-  let baseClasses = "px-4 py-1 font-medium transition-colors cursor-pointer";
+  let baseClasses =
+    "px-4 py-1 font-medium cursor-pointer relative overflow-hidden z-0";
   let variantClasses = "";
   let fillColor = "#fff";
 
   switch (variant) {
     case "red":
       variantClasses =
-        "border-1 border-redPrimary text-white hover:bg-redPrimary hover:text-white";
+        "btn-fill border border-redPrimary text-white hover:text-white";
       fillColor = "var(--color-redPrimary)";
       break;
     case "blue":
       variantClasses =
-        "border-1 border-bluePrimary text-white hover:bg-bluePrimary hover:text-white";
+        "btn-fill border border-bluePrimary text-white hover:text-white";
       fillColor = "var(--color-bluePrimary)";
       break;
     default:
       variantClasses =
-        "border-1 border-white text-white hover:bg-white hover:text-black";
+        "btn-fill border border-white text-white hover:text-black";
       fillColor = "#fff";
       break;
   }
 
   return (
     <button
-      className={`btn-fill ${baseClasses} ${variantClasses} ${className}`}
+      className={`${baseClasses} ${variantClasses} ${className}`}
       style={{
         ["--btn-fill-color" as any]: fillColor,
       }}

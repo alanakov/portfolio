@@ -42,5 +42,39 @@
       "description": "I am part of the Career Acceleration program, focused on technical and professional development in the technology field. In the first year, I worked on the development of Codecam's institutional website, collaborating with the team on front-end tasks and contributing solutions. Currently, in the second year, I continue to improve my technical skills and participate in new challenges and mentoring sessions focused on continuous growth and preparation for the job market.",
       "location": "Faculdade Integrado, Campo Mourão - PR"
     }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Text Adventure",
+      "description": "The player interacts by typing commands in natural language, such as 'pick up key'.",
+      "technologies": "Java MySQL",
+      "image": "./assets/images/projects/misticazoo.png",
+      "githubUrl": "https://github.com/alanakov/text-adventure-back"
+    },
+    {
+      "id": "2",
+      "title": "MisticaZoo",
+      "description": "Fictional online store project. Developed to practice e-commerce concepts",
+      "technologies": "Java SpringBoot React Tailwind",
+      "image": "./assets/images/projects/misticazoo.png",
+      "githubUrl": "https://github.com/alanakov/misticazoo-front"
+    },
+    {
+      "id": "3",
+      "title": "Gibiverse",
+      "description": "Gibiverse is a web platform for managing comic books.",
+      "technologies": "Docker Express React TypeScript Tailwind",
+      "image": "./assets/images/projects/misticazoo.png",
+      "githubUrl": "https://github.com/alanakov/gibiverse"
+    },
+    {
+      "id": "4",
+      "title": "Codecam",
+      "description": "I participated in the front-end construction. The site is live and offers some features",
+      "technologies": "React Tailwind TypeScript",
+      "image": "./assets/images/projects/misticazoo.png",
+      "liveUrl": "https://codecam.org.br"
+    }
   ]
 }
