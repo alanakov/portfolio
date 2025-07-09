@@ -42,6 +42,30 @@ declare module "i18next" {
           liveUrl?: string;
           githubUrl?: string;
         }>;
+        contact: {
+          title: string;
+          description: string;
+          form: {
+            name: string;
+            namePlaceholder: string;
+            email: string;
+            emailPlaceholder: string;
+            subject: string;
+            subjectPlaceholder: string;
+            submit: string;
+            sending: string;
+          };
+          validation: {
+            nameRequired: string;
+            emailRequired: string;
+            emailInvalid: string;
+            subjectRequired: string;
+          };
+          messages: {
+            success: string;
+            error: string;
+          };
+        };
       };
     };
   }

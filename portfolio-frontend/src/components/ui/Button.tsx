@@ -9,7 +9,7 @@ export default function Button({
   className = "",
   ...props
 }: ButtonProps) {
-  let baseClasses =
+  const baseClasses =
     "px-4 py-1 font-medium cursor-pointer relative overflow-hidden z-0";
   let variantClasses = "";
   let fillColor = "#fff";
@@ -35,9 +35,7 @@ export default function Button({
   return (
     <button
       className={`${baseClasses} ${variantClasses} ${className}`}
-      style={{
-        ["--btn-fill-color" as any]: fillColor,
-      }}
+      style={{ ["--btn-fill-color"]: fillColor } as React.CSSProperties}
       {...props}
     >
       {children || "Button"}

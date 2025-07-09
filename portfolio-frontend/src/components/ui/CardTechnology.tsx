@@ -4,7 +4,11 @@ type CardTechnologyProps = {
   image: string;
 };
 
-export default function CardTechnology({ name, percent, image }: CardTechnologyProps) {
+export default function CardTechnology({
+  name,
+  percent,
+  image,
+}: CardTechnologyProps) {
   const radius = 40;
   const stroke = 6;
   const normalizedRadius = radius - stroke / 2;
@@ -28,7 +32,7 @@ export default function CardTechnology({ name, percent, image }: CardTechnologyP
             className="stroke-bluePrimary"
             fill="transparent"
             strokeWidth={stroke}
-            strokeDasharray={circumference + ' ' + circumference}
+            strokeDasharray={circumference + " " + circumference}
             style={{ strokeDashoffset, transition: "stroke-dashoffset 0.5s" }}
             r={normalizedRadius}
             cx={45}
@@ -40,11 +44,12 @@ export default function CardTechnology({ name, percent, image }: CardTechnologyP
           alt={name}
           className="absolute top-[15px] left-[15px] w-[60px] h-[60px] object-contain bg-backgroundSecondary rounded-full"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = "https://via.placeholder.com/60x60?text=" + name;
+            (e.target as HTMLImageElement).src =
+              "https://via.placeholder.com/60x60?text=" + name;
           }}
         />
       </div>
       <span className="text-bluePrimary font-medium mt-2">{percent}%</span>
     </div>
   );
-} 
+}

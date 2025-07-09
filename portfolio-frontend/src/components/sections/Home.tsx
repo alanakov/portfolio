@@ -1,6 +1,18 @@
 import { useTranslation } from "react-i18next";
 import Button from "../ui/Button";
 
+const scrollToSection = (sectionId: string) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    const navbarHeight = 80;
+    const elementPosition = element.offsetTop - navbarHeight;
+    window.scrollTo({
+      top: elementPosition,
+      behavior: "smooth",
+    });
+  }
+};
+
 export default function Home() {
   const { t } = useTranslation();
   return (
@@ -13,7 +25,9 @@ export default function Home() {
           <br />
           {t("home.title").split(" ").slice(-1)}
         </h1>
-        <Button className="mt-6">{t("home.contact")}</Button>
+        <Button className="mt-6" onClick={() => scrollToSection("contact")}>
+          {t("home.contact")}
+        </Button>
       </div>
       <div className=" flex justify-center md:block">
         <div className="w-60 md:w-96 aspect-square rounded-full overflow-hidden flex items-center justify-center bg-background-secondary">
