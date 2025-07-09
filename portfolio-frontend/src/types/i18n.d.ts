@@ -33,6 +33,15 @@ declare module "i18next" {
           description: string;
           location: string;
         }>;
+        projects: Array<{
+          id: string;
+          title: string;
+          description: string;
+          technologies: string;
+          image: string;
+          liveUrl?: string;
+          githubUrl?: string;
+        }>;
       };
     };
   }
