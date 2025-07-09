@@ -122,7 +122,7 @@ export default function TabTechnologies() {
           <button
             key={tab.value}
             onClick={() => setSelected(tab.value)}
-            className={`bg-none border-none font-mono cursor-pointer px-0 py-1 text-lg transition-colors border-b-2 ${selected === tab.value ? "text-redPrimary border-redPrimary underline underline-offset-8 decoration-2 decoration-redPrimary" : "text-white border-transparent"}`}
+            className={`bg-none border-none font-mono cursor-pointer px-0 py-1 text-lg transition-colors border-b-2 ${selected === tab.value ? "text-white border-redPrimary underline underline-offset-8 decoration-2 decoration-redPrimary" : "border-transparent hover:text-white"}`}
           >
             {tab.label}
           </button>
