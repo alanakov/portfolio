@@ -1,4 +1,4 @@
-import Card from "../ui/Card";
+import Card from "../ui/CardProject";
 import Title from "../ui/Title";
 import { useTranslation } from "react-i18next";
 

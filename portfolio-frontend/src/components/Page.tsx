@@ -4,6 +4,7 @@ import AboutMe from "./sections/AboutMe";
 import Experiences from "./sections/Experiences";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
+import Technologies from "./sections/Technologies";
 
 export default function Page() {
   return (
@@ -23,6 +24,9 @@ export default function Page() {
             </div>
             <div className="mb-20">
               <Projects />
+            </div>
+            <div className="mb-20">
+              <Technologies />
             </div>
           </div>
         </div>
