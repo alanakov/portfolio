@@ -49,7 +49,7 @@
       "title": "Text Adventure",
       "description": "O jogador interage digitando comandos em linguagem natural, como 'pegar chave'.",
       "technologies": "Java MySQL",
-      "image": "./assets/images/projects/misticazoo.png",
+      "image": "./assets/images/projects/text-adventure.png",
       "githubUrl": "https://github.com/alanakov/text-adventure-back"
     },
     {
@@ -65,15 +65,15 @@
       "title": "Gibiverse",
       "description": "Gibiverse é uma plataforma web para gerenciamento de gibis.",
       "technologies": "Docker Express React TypeScript Tailwind",
-      "image": "./assets/images/projects/misticazoo.png",
+      "image": "./assets/images/projects/gibiverse.png",
       "githubUrl": "https://github.com/alanakov/gibiverse"
     },
     {
       "id": "4",
       "title": "Codecam",
-      "description": "Participei da construção do front-end. O site está no ar e oferece alguns recursos",
+      "description": "Participei do desenvolvimento do front-end. O site está no ar e oferece alguns recursos",
       "technologies": "React Tailwind TypeScript",
-      "image": "./assets/images/projects/misticazoo.png",
+      "image": "./assets/images/projects/codecam.png",
       "liveUrl": "https://codecam.org.br"
     }
   ],
