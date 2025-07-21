@@ -5,7 +5,7 @@ export default function AboutMe() {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center justify-between lg:items-start gap-8 lg:gap-16 w-full">
-      <div className="flex flex-col gap-4 w-full max-w-2xl lg:w-1/2">
+      <div className="flex flex-col gap-4 w-full max-w-2xl ">
         <Title>{t("aboutMe.title")}</Title>
         <div className="space-y-6">
           <p>{t("aboutMe.p1")}</p>

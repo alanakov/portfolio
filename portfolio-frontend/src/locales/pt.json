@@ -3,7 +3,7 @@
     "home": "home",
     "about": "sobre-mim",
     "projects": "projetos",
-    "contact": "contatos"
+    "contact": "contato"
   },
   "common": {
     "language": "Idioma"
@@ -99,6 +99,10 @@
     "messages": {
       "success": "Mensagem enviada com sucesso!",
       "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+    "sections": {
+      "technologies": "technologias",
+      "experiences": "experiências" 
     }
   }
 }

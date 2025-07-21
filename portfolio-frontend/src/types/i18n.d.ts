@@ -65,6 +65,10 @@ declare module "i18next" {
             success: string;
             error: string;
           };
+          sections: {
+            technologies: string;
+            experiences: string; 
+          }
         };
       };
     };
