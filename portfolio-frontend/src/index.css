@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@theme {
+    --color-background: #19191D;
+    --color-backgroundSecondary: #1E1E21;
+    --color-redPrimary: #F32F2F;
+    --color-bluePrimary: #1B688D;
+    --color-regularText: #ABB2BF;
+    --color-stroke: #424242;
+    --color-footer: #141417;
+    --font-fira-code: 'Fira Code', monospace;
+}
+
+@layer base {
+    html, body {
+        height: 100%;
+    }
+    
+    body {
+        background-color: var(--color-background);
+        font-family: var(--font-fira-code);
+        color: var(--color-regularText);
+    }
+}
+
+.btn-fill {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.btn-fill::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: var(--btn-fill-color, var(--color-redPrimary));
+  z-index: -1;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-fill:hover::before {
+  width: 100%;
+}
