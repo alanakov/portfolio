@@ -47,13 +47,13 @@ const technologies = [
   },
   {
     name: "HTML",
-    percent: 100,
+    percent: 90,
     image: "./assets/images/technologies/html.svg",
     category: "frontend",
   },
   {
     name: "Express",
-    percent: 40,
+    percent: 30,
     image: "/assets/images/technologies/express.png",
     category: "backend",
   },
@@ -71,7 +71,7 @@ const technologies = [
   },
   {
     name: "Spring Boot",
-    percent: 20,
+    percent: 10,
     image: "/assets/images/technologies/spring-boot.svg",
     category: "backend",
   },
@@ -83,7 +83,7 @@ const technologies = [
   },
   {
     name: "Docker",
-    percent: 20,
+    percent: 30,
     image: "/assets/images/technologies/docker.svg",
     category: "others",
   },
@@ -95,7 +95,7 @@ const technologies = [
   },
   {
     name: "Figma",
-    percent: 60,
+    percent: 80,
     image: "/assets/images/technologies/figma.svg",
     category: "others",
   },
