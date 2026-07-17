@@ -1,0 +1,160 @@
+{
+  "navbar": {
+    "home": "home",
+    "about": "sobre-mim",
+    "technologies": "tecnologias",
+    "experience": "experiências",
+    "projects": "projetos",
+    "contact": "contato"
+  },
+  "common": {
+    "language": "Idioma",
+    "backToTop": "Voltar ao topo ↑",
+    "available": "Disponível para novas oportunidades"
+  },
+  "home": {
+    "greeting": "Olá, eu sou",
+    "name": "Alana Kovalski",
+    "title": "Desenvolvedora Frontend",
+    "description": "Construo interfaces com lógica, criatividade e um toque de design — unindo código bem estruturado a experiências que fazem sentido para quem usa.",
+    "contact": "Entre em contato →"
+  },
+  "aboutMe": {
+    "title": "sobre-mim",
+    "p1": "Oi! Me chamo Alana, tenho 19 anos e atualmente estou no 4º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Me encontrei no desenvolvimento frontend, onde posso unir lógica, criatividade e um toque de design, e foi nesse equilíbrio que descobri minha paixão por programar.",
+    "p2": "Atualmente, trabalho com React e TypeScript, e venho me aprofundando no backend para ampliar minha visão como dev.",
+    "p3": "Fora do código, sou apaixonada por café, música e pela companhia dos meus gatos. Adoro aprender, evoluir e participar de projetos que conectem pessoas e tragam propósito. Bora trocar uma ideia? :)",
+    "imageLabel": "ilustração-alana.png"
+  },
+  "sections": {
+    "experiences": "experiências",
+    "projects": "projetos",
+    "technologies": "tecnologias",
+    "contact": "contatos"
+  },
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Estagiária",
+      "period": "09/2024 - 01/2025",
+      "description": "Durante meu estágio de 3 meses na VipTech, participei de projetos internos colaborando com a equipe de desenvolvimento na criação e manutenção de aplicações web. Atuei em tarefas como correção de bugs, versionamento com Git e implementação de pequenas funcionalidades, sempre com foco em boas práticas e aprendizado contínuo. A experiência me proporcionou contato direto com fluxos de trabalho ágeis e o dia a dia de uma equipe técnica em uma casa de software.",
+      "location": "VipTech, Campo Mourão - PR"
+    },
+    {
+      "id": "2",
+      "title": "Professora voluntária",
+      "period": "08/2024 - Presente",
+      "description": "Atuo como professora voluntária de informática para crianças de 10 a 15 anos, promovendo o primeiro contato com o uso consciente da tecnologia. Desenvolvi aulas introdutórias sobre o funcionamento do computador, navegação segura na internet, ferramentas básicas como o pacote Office e noções iniciais de lógica de programação. O projeto busca tornar o aprendizado acessível e inspirador, incentivando o protagonismo e a confiança dos alunos no ambiente digital.",
+      "location": "Campus Universitário Integrado, Campo Mourão - PR"
+    },
+    {
+      "id": "3",
+      "title": "Aceleração de Carreiras",
+      "period": "2024 - Presente",
+      "description": "Faço parte do programa Aceleração de Carreiras, voltado ao desenvolvimento técnico e profissional na área de tecnologia. No primeiro ano, atuei no desenvolvimento do site institucional da Codecam, colaborando com o time em tarefas de front-end e contribuindo com soluções. Atualmente, no segundo ano, sigo aprimorando minhas habilidades técnicas e participando de novos desafios e mentorias com foco em crescimento contínuo e preparação para o mercado.",
+      "location": "Faculdade Integrado, Campo Mourão - PR"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Text Adventure",
+      "description": "O jogador interage digitando comandos em linguagem natural, como 'pegar chave'.",
+      "overview": "Motor de aventura em texto onde o jogador digita comandos em linguagem natural para explorar um mundo narrativo ramificado.",
+      "situation": "Eu queria praticar lógica de programação pura, sem depender de uma interface visual complexa, focando em fluxo de decisões e persistência de estado.",
+      "task": "Desenvolvi sozinha toda a engine do jogo em Java, incluindo o parser de comandos em linguagem natural e a modelagem do mundo no banco de dados.",
+      "action": "Estruturei o mundo do jogo como um grafo de cenas no MySQL, com um parser simples que interpreta verbos e substantivos digitados pelo jogador para navegar entre elas.",
+      "challenge": "interpretar comandos digitados livremente pelo jogador sem travar a experiência quando o texto não era reconhecido.",
+      "result": "Entreguei um motor de jogo funcional, com múltiplas salas e itens interativos, tratando comandos não reconhecidos de forma amigável.",
+      "learnings": "Aprofundei minha lógica de programação em Java puro e ganhei experiência modelando dados relacionais para representar um mundo narrativo."
+    },
+    {
+      "id": "2",
+      "title": "MisticaZoo",
+      "description": "Projeto fictício de uma loja online. Desenvolvido para praticar conceitos de e-commerce.",
+      "overview": "Aplicação fictícia desenvolvida para praticar conceitos de CRUD completo, autenticação e integração entre frontend e backend.",
+      "situation": "Precisava de um projeto para fixar conceitos de autenticação e operações CRUD completas em um cenário com múltiplas entidades relacionadas.",
+      "task": "Fui responsável por todo o frontend em React e Tailwind, consumindo uma API própria construída em Java com Spring Boot.",
+      "action": "Estruturei o consumo da API em camadas de serviço separadas da UI, com formulários controlados e validação em tempo real.",
+      "challenge": "manter o estado do frontend sincronizado com as respostas da API sem recarregar a página inteira.",
+      "result": "Entreguei um CRUD completo e estável, com autenticação funcional e fluxos de cadastro, edição e exclusão sem bugs de sincronização.",
+      "learnings": "Aprofundei conceitos de autenticação e aprendi a estruturar chamadas de API de forma mais organizada e escalável."
+    },
+    {
+      "id": "3",
+      "title": "Gibiverse",
+      "description": "Gibiverse é uma plataforma web para gerenciamento de gibis.",
+      "overview": "Plataforma web para colecionadores organizarem, buscarem e catalogarem sua coleção de gibis.",
+      "situation": "Colecionadores de gibis não tinham uma forma simples de catalogar o que já possuíam, então decidi construir essa ferramenta.",
+      "task": "Atuei no frontend completo em React e TypeScript, consumindo uma API própria em Express, com o ambiente containerizado em Docker.",
+      "action": "Implementei busca e catalogação com tipagem forte em TypeScript, reduzindo bugs de integração entre o frontend e a API.",
+      "challenge": "lidar com dados de catálogo nem sempre completos sem quebrar a interface.",
+      "result": "A aplicação se manteve estável mesmo com dados incompletos, entregando uma experiência de busca fluida.",
+      "learnings": "Ganhei domínio prático em TypeScript aplicado a um projeto real e aprendi a containerizar uma aplicação completa com Docker."
+    },
+    {
+      "id": "4",
+      "title": "Codecam",
+      "description": "Participei do desenvolvimento do front-end. O site está no ar e oferece alguns recursos.",
+      "overview": "Site institucional desenvolvido em equipe para a Codecam, dentro do programa de Aceleração de Carreiras.",
+      "situation": "A Codecam precisava de um site institucional moderno para apresentar a empresa e seus serviços ao público.",
+      "task": "Participei do time de frontend, construindo componentes de interface em React, Tailwind e TypeScript junto aos demais colegas.",
+      "action": "Contribuí com a construção de seções responsivas do site e ajustes de UI alinhados ao design definido pela equipe.",
+      "challenge": "manter consistência visual e de código trabalhando em conjunto com outros desenvolvedores em um mesmo repositório.",
+      "result": "O site foi publicado com sucesso e está no ar, oferecendo informações institucionais e recursos da empresa.",
+      "learnings": "Aprendi a colaborar em um projeto real em equipe, seguindo padrões de código combinados e integrando meu trabalho ao dos colegas."
+    }
+  ],
+  "projectModal": {
+    "eyebrow": "ESTUDO DE CASO",
+    "situationCaption": "Contexto e problema",
+    "taskCaption": "Minhas responsabilidades",
+    "actionCaption": "Solução e decisões técnicas",
+    "challengePrefix": "Desafio",
+    "resultCaption": "Resultados obtidos",
+    "learningsTitle": "O que esse projeto agregou ao meu conhecimento",
+    "liveCta": "Ver projeto Live ⟷",
+    "githubCta": "Ver código no GitHub",
+    "caseStudyHint": "clique para ver o estudo de caso →"
+  },
+  "technologies": {
+    "filters": {
+      "todas": "todas",
+      "frontend": "frontend",
+      "backend": "backend",
+      "outros": "outros"
+    }
+  },
+  "contact": {
+    "title": "contato",
+    "description": "Estou em busca de oportunidades na área de desenvolvimento. Mas, se tiver outra proposta ou dúvida, fique à vontade para entrar em contato comigo!",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Insira seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "demo@email.com",
+      "phone": "Celular",
+      "phonePlaceholder": "+00 (00) 0000-0000",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Descreva o assunto",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "sent": "Enviado ✓"
+    },
+    "validation": {
+      "nameRequired": "Nome é obrigatório",
+      "emailRequired": "E-mail é obrigatório",
+      "emailInvalid": "E-mail inválido",
+      "subjectRequired": "Assunto é obrigatório"
+    },
+    "messages": {
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    }
+  },
+  "footer": {
+    "mediaLabel": "Media"
+  }
+}
