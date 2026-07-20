@@ -41,8 +41,10 @@ export default function ContactForm({
         id="contact-phone"
         label={t("contact.form.phone")}
         placeholder={t("contact.form.phonePlaceholder")}
+        type="tel"
         value={formData.phone}
         onChange={handleChange("phone")}
+        error={errors.phone}
       />
       <ContactField
         id="contact-subject"

@@ -136,7 +136,7 @@
       "email": "E-mail",
       "emailPlaceholder": "demo@email.com",
       "phone": "Celular",
-      "phonePlaceholder": "+00 (00) 0000-0000",
+      "phonePlaceholder": "(44) 99999-9999",
       "subject": "Assunto",
       "subjectPlaceholder": "Descreva o assunto",
       "submit": "Enviar",
@@ -147,7 +147,8 @@
       "nameRequired": "Nome é obrigatório",
       "emailRequired": "E-mail é obrigatório",
       "emailInvalid": "E-mail inválido",
-      "subjectRequired": "Assunto é obrigatório"
+      "subjectRequired": "Assunto é obrigatório",
+      "phoneInvalid": "Celular inválido"
     },
     "messages": {
       "success": "Mensagem enviada com sucesso!",

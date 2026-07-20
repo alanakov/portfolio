@@ -38,7 +38,7 @@ export default function Projects() {
           trackRef.current = node;
           revealRef.current = node;
         }}
-        className="scrollbar-hide mt-9.5 flex snap-x snap-mandatory gap-5.5 overflow-x-auto overscroll-x-contain pb-3"
+        className="scrollbar-hide mt-9.5 flex snap-x snap-mandatory items-stretch gap-5.5 overflow-x-auto overscroll-x-contain pb-3"
       >
         {projects.map((project, index) => (
           <ProjectCard

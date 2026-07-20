@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { sendContactMessage } from "@/services/contactService";
+import { formatPhoneNumber, isValidPhoneNumber } from "@/utils/phone";
 
 export interface ContactFormState {
   name: string;
@@ -27,7 +28,9 @@ export function useContactForm() {
 
   function handleChange(field: keyof ContactFormState) {
     return (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-      setFormData((prev) => ({ ...prev, [field]: event.target.value }));
+      const rawValue = event.target.value;
+      const nextValue = field === "phone" ? formatPhoneNumber(rawValue) : rawValue;
+      setFormData((prev) => ({ ...prev, [field]: nextValue }));
       setErrors((prev) => ({ ...prev, [field]: undefined }));
     };
   }
@@ -44,6 +47,10 @@ export function useContactForm() {
     }
 
     if (!formData.subject.trim()) nextErrors.subject = t("contact.validation.subjectRequired");
+
+    if (formData.phone.trim() && !isValidPhoneNumber(formData.phone)) {
+      nextErrors.phone = t("contact.validation.phoneInvalid");
+    }
 
     setErrors(nextErrors);
     return Object.values(nextErrors).every((error) => !error);
