@@ -58,9 +58,9 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               {t(link.labelKey)}
             </NavItem>
           ))}
-        </nav>
 
-        <LanguageSwitcher className="mt-auto" />
+          <LanguageSwitcher />
+        </nav>
       </div>
     </div>
   );

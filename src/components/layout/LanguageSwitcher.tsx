@@ -12,7 +12,7 @@ export default function LanguageSwitcher({ className }: LanguageSwitcherProps) {
     useLanguageSwitcher();
 
   return (
-    <div ref={containerRef} className={cn("relative", className)}>
+    <div ref={containerRef} className={cn("relative self-start", className)}>
       <button
         type="button"
         onClick={toggleOpen}
