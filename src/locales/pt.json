@@ -16,12 +16,13 @@
     "greeting": "Olá, eu sou",
     "name": "Alana Kovalski",
     "title": "Desenvolvedora Frontend",
-    "description": "Construo interfaces com lógica, criatividade e um toque de design — unindo código bem estruturado a experiências que fazem sentido para quem usa.",
-    "contact": "Entre em contato →"
+    "description": "Transformo ideias em interfaces funcionais, unindo código, criatividade e design para criar experiências intuitivas.",
+    "contact": "Entre em contato →",
+    "resume": "Baixar currículo ↓"
   },
   "aboutMe": {
     "title": "sobre-mim",
-    "p1": "Oi! Me chamo Alana, tenho 19 anos e atualmente estou no 4º período do curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Me encontrei no desenvolvimento frontend, onde posso unir lógica, criatividade e um toque de design, e foi nesse equilíbrio que descobri minha paixão por programar.",
+    "p1": "Oi! Me chamo Alana, tenho 20 anos e sou formada no curso de Tecnologia em Análise e Desenvolvimento de Sistemas. Me encontrei no desenvolvimento frontend, onde posso unir lógica, criatividade e um toque de design, e foi nesse equilíbrio que descobri minha paixão por programar.",
     "p2": "Atualmente, trabalho com React e TypeScript, e venho me aprofundando no backend para ampliar minha visão como dev.",
     "p3": "Fora do código, sou apaixonada por café, música e pela companhia dos meus gatos. Adoro aprender, evoluir e participar de projetos que conectem pessoas e tragam propósito. Bora trocar uma ideia? :)",
     "imageLabel": "ilustração-alana.png"
@@ -61,12 +62,12 @@
       "title": "Text Adventure",
       "description": "O jogador interage digitando comandos em linguagem natural, como 'pegar chave'.",
       "overview": "Motor de aventura em texto onde o jogador digita comandos em linguagem natural para explorar um mundo narrativo ramificado.",
-      "situation": "Eu queria praticar lógica de programação pura, sem depender de uma interface visual complexa, focando em fluxo de decisões e persistência de estado.",
-      "task": "Desenvolvi sozinha toda a engine do jogo em Java, incluindo o parser de comandos em linguagem natural e a modelagem do mundo no banco de dados.",
-      "action": "Estruturei o mundo do jogo como um grafo de cenas no MySQL, com um parser simples que interpreta verbos e substantivos digitados pelo jogador para navegar entre elas.",
+      "situation": "Trabalho de módulo da faculdade, focado em lógica de programação pura, sem depender de uma interface muito complexa.",
+      "task": "Engine toda desenvolvida com Spring Boot e feita modelagem de dados.",
+      "action": "Estruturar um banco de dados e interpretar os verbos e substantivos digitados pelo jogador para alternar entre histórias.",
       "challenge": "interpretar comandos digitados livremente pelo jogador sem travar a experiência quando o texto não era reconhecido.",
-      "result": "Entreguei um motor de jogo funcional, com múltiplas salas e itens interativos, tratando comandos não reconhecidos de forma amigável.",
-      "learnings": "Aprofundei minha lógica de programação em Java puro e ganhei experiência modelando dados relacionais para representar um mundo narrativo."
+      "result": "Jogo funcional com múltiplas histórias e itens interativos.",
+      "learnings": "Aprofundei minha lógica de programação em Java e ganhei experiência modelando dados relacionais para representar um mundo narrativo."
     },
     {
       "id": "2",
@@ -103,6 +104,18 @@
       "challenge": "manter consistência visual e de código trabalhando em conjunto com outros desenvolvedores em um mesmo repositório.",
       "result": "O site foi publicado com sucesso e está no ar, oferecendo informações institucionais e recursos da empresa.",
       "learnings": "Aprendi a colaborar em um projeto real em equipe, seguindo padrões de código combinados e integrando meu trabalho ao dos colegas."
+    },
+    {
+      "id": "5",
+      "title": "Portal da Aldeia Indígena Verá Tupã'i",
+      "description": "Plataforma para divulgação da cultura indígena, com painel administrativo de conteúdo, desenvolvida como TCC.",
+      "overview": "Plataforma completa pra divulgar a cultura da Aldeia Indígena Verá Tupã'i, com um painel administrativo pra gerenciar o conteúdo, feita como trabalho de conclusão de curso.",
+      "situation": "O projeto nasceu como TCC e iniciação científica: eu queria criar uma forma digital de preservar e divulgar a cultura da aldeia, dando autonomia pra eles gerenciarem o próprio conteúdo.",
+      "task": "Reconstruí a plataforma do zero, migrando de uma primeira versão em PHP puro pra uma stack em React no frontend e NestJS no backend.",
+      "action": "Estruturei o backend em NestJS com um painel administrativo de conteúdo e cobri as funcionalidades com testes unitários em Jest e testes end-to-end com Playwright.",
+      "challenge": "migrar uma base já existente em PHP puro pra uma arquitetura nova sem perder funcionalidades no processo.",
+      "result": "Entreguei uma plataforma completa e testada, com painel administrativo funcional pra gestão do conteúdo da aldeia.",
+      "learnings": "Aprendi a conduzir uma migração de stack do início ao fim e a importância de cobrir um sistema real com testes automatizados."
     }
   ],
   "projectModal": {

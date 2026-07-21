@@ -1,0 +1,10 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#121113" />
+  <g transform="translate(640,270)">
+    <path d="M0 -90 C 60 -70, 90 -20, 60 40 C 40 80, -40 80, -60 40 C -90 -20, -60 -70, 0 -90 Z" fill="#302020" />
+    <path d="M0 -70 C 40 -55, 60 -15, 40 30 C 25 60, -25 60, -40 30 C -60 -15, -40 -55, 0 -70 Z" fill="#e0392e" />
+    <line x1="0" y1="-70" x2="0" y2="60" stroke="#121113" stroke-width="4" />
+  </g>
+  <text x="640" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="56" fill="#e0392e">Portal da Aldeia</text>
+  <text x="640" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="34" fill="#f1efe9" opacity="0.75">Verá Tupã'i</text>
+</svg>

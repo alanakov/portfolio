@@ -24,6 +24,7 @@ declare module "i18next" {
           title: string;
           description: string;
           contact: string;
+          resume: string;
         };
         aboutMe: {
           title: string;
@@ -100,6 +101,7 @@ declare module "i18next" {
             emailRequired: string;
             emailInvalid: string;
             subjectRequired: string;
+            phoneInvalid: string;
           };
           messages: {
             success: string;

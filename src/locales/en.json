@@ -16,12 +16,13 @@
     "greeting": "Hello, I am",
     "name": "Alana Kovalski",
     "title": "Frontend Developer",
-    "description": "I build interfaces with logic, creativity, and a touch of design — pairing well-structured code with experiences that make sense for whoever uses them.",
-    "contact": "Contact me →"
+    "description": "I turn ideas into functional interfaces, blending code, creativity, and design to create intuitive experiences.",
+    "contact": "Contact me →",
+    "resume": "Download resume ↓"
   },
   "aboutMe": {
     "title": "about-me",
-    "p1": "Hi! My name is Alana, I'm 19 years old and currently in the 4th semester of the Systems Analysis and Development program. I found myself in frontend development, where I can combine logic, creativity, and a touch of design. It was in this balance that I discovered my passion for programming.",
+    "p1": "Hi! My name is Alana, I'm 20 years old and I graduated in Systems Analysis and Development. I found myself in frontend development, where I get to combine logic, creativity, and a touch of design, and it was in that balance that I discovered my passion for programming.",
     "p2": "Currently, I work with React and TypeScript, and I have been diving into backend to broaden my perspective as a developer.",
     "p3": "Outside of code, I'm passionate about coffee, music, and the company of my cats. I love learning, growing, and participating in projects that connect people and bring purpose. Let's chat? :)",
     "imageLabel": "alana-illustration.png"
@@ -61,12 +62,12 @@
       "title": "Text Adventure",
       "description": "The player interacts by typing commands in natural language, such as 'pick up key'.",
       "overview": "Text-adventure engine where the player types natural-language commands to explore a branching narrative world.",
-      "situation": "I wanted to practice pure programming logic without relying on a complex visual interface, focusing on decision flow and state persistence.",
-      "task": "I built the entire game engine in Java by myself, including the natural-language command parser and the data model for the game world.",
-      "action": "I structured the game world as a graph of scenes in MySQL, with a simple parser that interprets the verbs and nouns typed by the player to move between them.",
+      "situation": "A college module assignment, focused on pure programming logic without relying on a complex interface.",
+      "task": "The whole engine was built with Spring Boot, including the data modeling.",
+      "action": "Structuring a database and interpreting the verbs and nouns typed by the player to switch between storylines.",
       "challenge": "interpreting freely typed player commands without breaking the experience when the text wasn't recognized.",
-      "result": "I delivered a working game engine with multiple rooms and interactive items, handling unrecognized commands gracefully.",
-      "learnings": "I deepened my programming logic in plain Java and gained experience modeling relational data to represent a narrative world."
+      "result": "A working game with multiple storylines and interactive items.",
+      "learnings": "I deepened my programming logic in Java and gained experience modeling relational data to represent a narrative world."
     },
     {
       "id": "2",
@@ -103,6 +104,18 @@
       "challenge": "keeping visual and code consistency while working together with other developers in the same repository.",
       "result": "The site was successfully published and is live, providing institutional information and company features.",
       "learnings": "I learned to collaborate on a real team project, following agreed-upon code standards and integrating my work with my colleagues'."
+    },
+    {
+      "id": "5",
+      "title": "Verá Tupã'i Indigenous Village Portal",
+      "description": "Platform to showcase Indigenous culture, with a content admin panel, built as my capstone project.",
+      "overview": "A full platform to showcase the culture of the Verá Tupã'i Indigenous Village, with an admin panel to manage content, built as my capstone project.",
+      "situation": "The project started as my capstone and undergraduate research: I wanted to build a digital way to preserve and showcase the village's culture, giving them the autonomy to manage their own content.",
+      "task": "I rebuilt the platform from scratch, migrating from an initial plain PHP version to a React frontend and NestJS backend.",
+      "action": "I structured the backend in NestJS with a content admin panel and covered the features with unit tests in Jest and end-to-end tests with Playwright.",
+      "challenge": "migrating an existing plain PHP codebase to a new architecture without losing functionality along the way.",
+      "result": "I delivered a complete, tested platform with a working admin panel for managing the village's content.",
+      "learnings": "I learned to lead a stack migration from start to finish, and how important it is to cover a real system with automated tests."
     }
   ],
   "projectModal": {

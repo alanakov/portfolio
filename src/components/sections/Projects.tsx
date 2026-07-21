@@ -10,14 +10,14 @@ import { useHorizontalScroll } from "@/hooks/useHorizontalScroll";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useProjects } from "@/hooks/useProjects";
 import { SECTION_IDS } from "@/constants";
-import type { Project } from "@/types";
 
 export default function Projects() {
   const { t } = useTranslation();
   const projects = useProjects();
   const { trackRef, scrollPrev, scrollNext } = useHorizontalScroll<HTMLDivElement>();
   const { ref: revealRef, isVisible } = useScrollReveal<HTMLDivElement>();
-  const [activeProject, setActiveProject] = useState<Project | null>(null);
+  const [activeProjectId, setActiveProjectId] = useState<string | null>(null);
+  const activeProject = projects.find((project) => project.id === activeProjectId) ?? null;
 
   return (
     <section id={SECTION_IDS.projects} className="py-16">
@@ -44,14 +44,14 @@ export default function Projects() {
           <ProjectCard
             key={project.id}
             project={project}
-            onOpen={() => setActiveProject(project)}
+            onOpen={() => setActiveProjectId(project.id)}
             isVisible={isVisible}
             delay={index * 90}
           />
         ))}
       </div>
 
-      <ProjectModal project={activeProject} onClose={() => setActiveProject(null)} />
+      <ProjectModal project={activeProject} onClose={() => setActiveProjectId(null)} />
     </section>
   );
 }

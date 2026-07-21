@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
+import { Download } from "lucide-react";
 import { buttonStyles } from "@/components/ui/buttonVariants";
+import LinkButton from "@/components/ui/LinkButton";
 import NavItem from "@/components/layout/NavItem";
 import Reveal from "@/components/common/Reveal";
 import { SECTION_IDS, SITE_CONFIG } from "@/constants";
@@ -33,20 +35,28 @@ export default function Hero() {
           <NavItem sectionId={SECTION_IDS.contact} className={buttonStyles()}>
             {t("home.contact")}
           </NavItem>
-          <div className="flex items-center gap-2.5 text-xs text-foreground/50">
-            <span className="animate-blink h-2 w-2 rounded-full bg-success" />
-            {t("common.available")}
-          </div>
+          <LinkButton
+            href="/assets/files/curriculo-alana-kovalski.pdf"
+            download
+            variant="outline"
+          >
+            <Download size={15} />
+            {t("home.resume")}
+          </LinkButton>
+        </div>
+        <div className="mt-4.5 flex items-center gap-2.5 text-xs text-foreground/50">
+          <span className="animate-blink h-2 w-2 rounded-full bg-success" />
+          {t("common.available")}
         </div>
       </Reveal>
 
-      <Reveal delay={150} className="relative h-[220px] w-[220px] shrink-0 justify-self-center">
+      <Reveal delay={150} className="relative h-[300px] w-[300px] shrink-0 justify-self-center">
         <div className="animate-float absolute inset-0 rounded-full border border-border" />
         <div className="absolute inset-4 overflow-hidden rounded-full">
           <img
             src="/assets/images/alana-home.png"
             alt={SITE_CONFIG.name}
-            className="h-full w-full object-cover grayscale contrast-[1.1]"
+            className="h-full w-full object-cover"
           />
         </div>
         <div className="absolute -right-1 -bottom-2 rounded-md border border-border bg-surface px-2.5 py-1.5 text-[10px] text-foreground/60">
