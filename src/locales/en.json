@@ -1,0 +1,174 @@
+{
+  "navbar": {
+    "home": "home",
+    "about": "about-me",
+    "technologies": "technologies",
+    "experience": "experience",
+    "projects": "projects",
+    "contact": "contact"
+  },
+  "common": {
+    "language": "Language",
+    "backToTop": "Back to top ↑",
+    "available": "Available for new opportunities"
+  },
+  "home": {
+    "greeting": "Hello, I am",
+    "name": "Alana Kovalski",
+    "title": "Frontend Developer",
+    "description": "I turn ideas into functional interfaces, blending code, creativity, and design to create intuitive experiences.",
+    "contact": "Contact me →",
+    "resume": "Download resume ↓"
+  },
+  "aboutMe": {
+    "title": "about-me",
+    "p1": "Hi! My name is Alana, I'm 20 years old and I graduated in Systems Analysis and Development. I found myself in frontend development, where I get to combine logic, creativity, and a touch of design, and it was in that balance that I discovered my passion for programming.",
+    "p2": "Currently, I work with React and TypeScript, and I have been diving into backend to broaden my perspective as a developer.",
+    "p3": "Outside of code, I'm passionate about coffee, music, and the company of my cats. I love learning, growing, and participating in projects that connect people and bring purpose. Let's chat? :)",
+    "imageLabel": "alana-illustration.png"
+  },
+  "sections": {
+    "experiences": "experience",
+    "projects": "projects",
+    "technologies": "technologies",
+    "contact": "contacts"
+  },
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Intern",
+      "period": "09/2024 - 01/2025",
+      "description": "During my 3-month internship at VipTech, I participated in internal projects collaborating with the development team in creating and maintaining web applications. I worked on tasks such as bug fixing, versioning with Git, and implementing small features, always focusing on best practices and continuous learning. The experience gave me direct contact with agile workflows and the daily life of a technical team in a software house.",
+      "location": "VipTech, Campo Mourão - PR"
+    },
+    {
+      "id": "2",
+      "title": "Volunteer Teacher",
+      "period": "08/2024 - Present",
+      "description": "I work as a volunteer computer teacher for children aged 10 to 15, promoting their first contact with conscious technology use. I developed introductory lessons on how computers work, safe internet browsing, basic tools like the Office suite, and initial programming logic concepts. The project aims to make learning accessible and inspiring, encouraging students' protagonism and confidence in the digital environment.",
+      "location": "Campus Universitário Integrado, Campo Mourão - PR"
+    },
+    {
+      "id": "3",
+      "title": "Career Acceleration",
+      "period": "2024 - Present",
+      "description": "I am part of the Career Acceleration program, focused on technical and professional development in the technology field. In the first year, I worked on the development of Codecam's institutional website, collaborating with the team on front-end tasks and contributing solutions. Currently, in the second year, I continue to improve my technical skills and participate in new challenges and mentoring sessions focused on continuous growth and preparation for the job market.",
+      "location": "Faculdade Integrado, Campo Mourão - PR"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Text Adventure",
+      "description": "The player interacts by typing commands in natural language, such as 'pick up key'.",
+      "overview": "Text-adventure engine where the player types natural-language commands to explore a branching narrative world.",
+      "situation": "A college module assignment, focused on pure programming logic without relying on a complex interface.",
+      "task": "The whole engine was built with Spring Boot, including the data modeling.",
+      "action": "Structuring a database and interpreting the verbs and nouns typed by the player to switch between storylines.",
+      "challenge": "interpreting freely typed player commands without breaking the experience when the text wasn't recognized.",
+      "result": "A working game with multiple storylines and interactive items.",
+      "learnings": "I deepened my programming logic in Java and gained experience modeling relational data to represent a narrative world."
+    },
+    {
+      "id": "2",
+      "title": "MisticaZoo",
+      "description": "Fictional online store project. Developed to practice e-commerce concepts.",
+      "overview": "Fictional application built to practice full CRUD flows, authentication, and frontend-backend integration.",
+      "situation": "I needed a project to solidify authentication concepts and full CRUD operations in a scenario with multiple related entities.",
+      "task": "I was responsible for the entire frontend in React and Tailwind, consuming a custom API built in Java with Spring Boot.",
+      "action": "I structured the API consumption in service layers separate from the UI, with controlled forms and real-time validation.",
+      "challenge": "keeping the frontend state in sync with the API responses without reloading the whole page.",
+      "result": "I delivered a complete, stable CRUD with working authentication and create/edit/delete flows with no sync bugs.",
+      "learnings": "I deepened my understanding of authentication and learned to structure API calls in a more organized and scalable way."
+    },
+    {
+      "id": "3",
+      "title": "Gibiverse",
+      "description": "Gibiverse is a web platform for managing comic books.",
+      "overview": "Web platform for collectors to organize, search, and catalog their comic book collection.",
+      "situation": "Comic book collectors didn't have a simple way to catalog what they already owned, so I decided to build this tool.",
+      "task": "I worked on the entire frontend in React and TypeScript, consuming a custom Express API, with the environment containerized in Docker.",
+      "action": "I implemented search and cataloging with strong TypeScript typing, reducing integration bugs between the frontend and the API.",
+      "challenge": "handling catalog data that wasn't always complete without breaking the interface.",
+      "result": "The application stayed stable even with incomplete data, delivering a smooth search experience.",
+      "learnings": "I gained practical TypeScript experience on a real project and learned to containerize a full application with Docker."
+    },
+    {
+      "id": "4",
+      "title": "Codecam",
+      "description": "I participated in the front-end construction. The site is live and offers some features.",
+      "overview": "Institutional website built with a team for Codecam, as part of the Career Acceleration program.",
+      "situation": "Codecam needed a modern institutional website to present the company and its services to the public.",
+      "task": "I joined the frontend team, building interface components in React, Tailwind, and TypeScript alongside other developers.",
+      "action": "I contributed responsive sections of the site and UI adjustments aligned with the design defined by the team.",
+      "challenge": "keeping visual and code consistency while working together with other developers in the same repository.",
+      "result": "The site was successfully published and is live, providing institutional information and company features.",
+      "learnings": "I learned to collaborate on a real team project, following agreed-upon code standards and integrating my work with my colleagues'."
+    },
+    {
+      "id": "5",
+      "title": "Verá Tupã'i Indigenous Village Portal",
+      "description": "Platform to showcase Indigenous culture, with a content admin panel, built as my capstone project.",
+      "overview": "A full platform to showcase the culture of the Verá Tupã'i Indigenous Village, with an admin panel to manage content, built as my capstone project.",
+      "situation": "The project started as my capstone and undergraduate research: I wanted to build a digital way to preserve and showcase the village's culture, giving them the autonomy to manage their own content.",
+      "task": "I rebuilt the platform from scratch, migrating from an initial plain PHP version to a React frontend and NestJS backend.",
+      "action": "I structured the backend in NestJS with a content admin panel and covered the features with unit tests in Jest and end-to-end tests with Playwright.",
+      "challenge": "migrating an existing plain PHP codebase to a new architecture without losing functionality along the way.",
+      "result": "I delivered a complete, tested platform with a working admin panel for managing the village's content.",
+      "learnings": "I learned to lead a stack migration from start to finish, and how important it is to cover a real system with automated tests."
+    }
+  ],
+  "projectModal": {
+    "eyebrow": "CASE STUDY",
+    "situationCaption": "Context and problem",
+    "taskCaption": "My responsibilities",
+    "actionCaption": "Solution and technical decisions",
+    "challengePrefix": "Challenge",
+    "resultCaption": "Results achieved",
+    "learningsTitle": "What this project added to my knowledge",
+    "liveCta": "View live project ⟷",
+    "githubCta": "View code on GitHub",
+    "caseStudyHint": "click to see the case study →"
+  },
+  "technologies": {
+    "filters": {
+      "todas": "all",
+      "frontend": "frontend",
+      "backend": "backend",
+      "outros": "others"
+    }
+  },
+  "contact": {
+    "title": "contact",
+    "description": "I'm looking for opportunities in the development field. But if you have another proposal or question, feel free to get in touch with me!",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "E-mail",
+      "emailPlaceholder": "demo@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "(44) 99999-9999",
+      "subject": "Subject",
+      "subjectPlaceholder": "Describe the subject",
+      "submit": "Send",
+      "sending": "Sending...",
+      "sent": "Sent ✓"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "E-mail is required",
+      "emailInvalid": "Invalid e-mail",
+      "subjectRequired": "Subject is required",
+      "phoneInvalid": "Invalid phone number"
+    },
+    "messages": {
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    }
+  },
+  "footer": {
+    "mediaLabel": "Media"
+  }
+}
